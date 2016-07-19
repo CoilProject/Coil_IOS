@@ -39,6 +39,8 @@ class LeftMenuController : UIViewController, LeftMenuProtocol{
         self.settingViewController = UINavigationController(rootViewController: settingViewController)
         
         tableview.registerClass(BaseTableViewCell.self, forCellReuseIdentifier: cellReuseIdentifier)
+        tableview.dataSource = self
+        tableview.delegate = self
     }
     
     override func viewDidAppear(animated: Bool) {
@@ -59,7 +61,9 @@ class LeftMenuController : UIViewController, LeftMenuProtocol{
 
 extension LeftMenuController : UITableViewDelegate{
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        print("delegate1")
         if let menu = LeftMenu(rawValue: indexPath.item) {
+            print("delegate")
             switch menu {
             case .Main, .Ranking, .Setting:
                 return BaseTableViewCell.height()
@@ -76,7 +80,9 @@ extension LeftMenuController : UITableViewDataSource{
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
+        print("datasource1")
         if let menu = LeftMenu(rawValue: indexPath.item) {
+            print("datasource")
             switch menu {
             case .Main, .Ranking, .Setting:
                 let cell = BaseTableViewCell(style: UITableViewCellStyle.Subtitle, reuseIdentifier: BaseTableViewCell.identifier)
