@@ -16,6 +16,10 @@
 		08A5314B1D3E4CFF00341E20 /* SlideMenuControllerSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 08A531491D3E4CFF00341E20 /* SlideMenuControllerSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		08A5314E1D3E525800341E20 /* LeftMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A5314D1D3E525800341E20 /* LeftMenuController.swift */; };
 		08A531501D3E629A00341E20 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A5314F1D3E629A00341E20 /* UIViewController.swift */; };
+		08A531521D3E68B200341E20 /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A531511D3E68B200341E20 /* RankingViewController.swift */; };
+		08A531541D3E68BF00341E20 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A531531D3E68BF00341E20 /* SettingViewController.swift */; };
+		08A5315A1D3E6FD900341E20 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A531591D3E6FD900341E20 /* String.swift */; };
+		08A5315C1D3E6FF900341E20 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A5315B1D3E6FF900341E20 /* BaseTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +47,10 @@
 		08A531491D3E4CFF00341E20 /* SlideMenuControllerSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SlideMenuControllerSwift.framework; path = Carthage/Build/iOS/SlideMenuControllerSwift.framework; sourceTree = "<group>"; };
 		08A5314D1D3E525800341E20 /* LeftMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftMenuController.swift; sourceTree = "<group>"; };
 		08A5314F1D3E629A00341E20 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		08A531511D3E68B200341E20 /* RankingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
+		08A531531D3E68BF00341E20 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		08A531591D3E6FD900341E20 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		08A5315B1D3E6FF900341E20 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +93,10 @@
 				08A531431D3E4C0E00341E20 /* Info.plist */,
 				08A5314D1D3E525800341E20 /* LeftMenuController.swift */,
 				08A5314F1D3E629A00341E20 /* UIViewController.swift */,
+				08A531511D3E68B200341E20 /* RankingViewController.swift */,
+				08A531531D3E68BF00341E20 /* SettingViewController.swift */,
+				08A531591D3E6FD900341E20 /* String.swift */,
+				08A5315B1D3E6FF900341E20 /* BaseTableViewCell.swift */,
 			);
 			path = IOSCoilProject;
 			sourceTree = "<group>";
@@ -161,10 +173,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08A5315C1D3E6FF900341E20 /* BaseTableViewCell.swift in Sources */,
+				08A531521D3E68B200341E20 /* RankingViewController.swift in Sources */,
 				08A5313A1D3E4C0E00341E20 /* MainViewController.swift in Sources */,
 				08A531381D3E4C0E00341E20 /* AppDelegate.swift in Sources */,
 				08A531501D3E629A00341E20 /* UIViewController.swift in Sources */,
+				08A5315A1D3E6FD900341E20 /* String.swift in Sources */,
 				08A5314E1D3E525800341E20 /* LeftMenuController.swift in Sources */,
+				08A531541D3E68BF00341E20 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
