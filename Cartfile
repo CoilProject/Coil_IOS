@@ -1,1 +1,2 @@
 github "dekatotoro/SlideMenuControllerSwift"
+github "Alamofire/Alamofire" ~> 3.4
