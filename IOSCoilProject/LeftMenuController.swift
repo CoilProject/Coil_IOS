@@ -22,7 +22,7 @@ protocol LeftMenuProtocol: class {
 class LeftMenuController : UIViewController, LeftMenuProtocol{
     
     @IBOutlet weak var tableview: UITableView!
-    let cellReuseIdentifier = "MenuCell"
+    let cellReuseIdentifier = "Cell"
     var menus = ["Main","Ranking","Setting"]
     var mainViewController: UIViewController!
     var rankingViewController: UIViewController!
@@ -39,7 +39,9 @@ class LeftMenuController : UIViewController, LeftMenuProtocol{
         self.settingViewController = UINavigationController(rootViewController: settingViewController)
         
         // table view setting ..Left Side Menu
-        tableview.registerClass(BaseTableViewCell.self, forCellReuseIdentifier: cellReuseIdentifier)
+        var nib = UINib(nibName: "MenutvCell", bundle: nil)
+        tableview.registerNib(nib, forCellReuseIdentifier: cellReuseIdentifier)
+
         tableview.dataSource = self
         tableview.delegate = self
     }
@@ -87,8 +89,9 @@ extension LeftMenuController : UITableViewDataSource{
         if let menu = LeftMenu(rawValue: indexPath.item) {
             switch menu {
             case .Main, .Ranking, .Setting:
-                let cell = BaseTableViewCell(style: UITableViewCellStyle.Subtitle, reuseIdentifier: BaseTableViewCell.identifier)
-                cell.setData(menus[indexPath.row])
+                var cell:CustomMenutvCell = tableView.dequeueReusableCellWithIdentifier(cellReuseIdentifier) as! CustomMenutvCell
+                cell.menuText.text = menus[indexPath.row]
+
                 return cell
             }
         }

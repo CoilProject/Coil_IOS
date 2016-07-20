@@ -22,6 +22,8 @@
 		08A5315C1D3E6FF900341E20 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A5315B1D3E6FF900341E20 /* BaseTableViewCell.swift */; };
 		08F6951E1D3F5EE200BADA56 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F6951D1D3F5EE200BADA56 /* Alamofire.framework */; };
 		08F6951F1D3F5EE200BADA56 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 08F6951D1D3F5EE200BADA56 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		08F695211D3F648C00BADA56 /* MenutvCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08F695201D3F648C00BADA56 /* MenutvCell.xib */; };
+		08F695231D3F651900BADA56 /* CustomMenutvCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F695221D3F651900BADA56 /* CustomMenutvCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -55,6 +57,8 @@
 		08A531591D3E6FD900341E20 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		08A5315B1D3E6FF900341E20 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
 		08F6951D1D3F5EE200BADA56 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		08F695201D3F648C00BADA56 /* MenutvCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenutvCell.xib; sourceTree = "<group>"; };
+		08F695221D3F651900BADA56 /* CustomMenutvCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMenutvCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				08A531531D3E68BF00341E20 /* SettingViewController.swift */,
 				08A531591D3E6FD900341E20 /* String.swift */,
 				08A5315B1D3E6FF900341E20 /* BaseTableViewCell.swift */,
+				08F695201D3F648C00BADA56 /* MenutvCell.xib */,
+				08F695221D3F651900BADA56 /* CustomMenutvCell.swift */,
 			);
 			path = IOSCoilProject;
 			sourceTree = "<group>";
@@ -168,6 +174,7 @@
 			files = (
 				08A531421D3E4C0E00341E20 /* LaunchScreen.storyboard in Resources */,
 				08A5313F1D3E4C0E00341E20 /* Assets.xcassets in Resources */,
+				08F695211D3F648C00BADA56 /* MenutvCell.xib in Resources */,
 				08A5313D1D3E4C0E00341E20 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -183,6 +190,7 @@
 				08A531521D3E68B200341E20 /* RankingViewController.swift in Sources */,
 				08A5313A1D3E4C0E00341E20 /* MainViewController.swift in Sources */,
 				08A531381D3E4C0E00341E20 /* AppDelegate.swift in Sources */,
+				08F695231D3F651900BADA56 /* CustomMenutvCell.swift in Sources */,
 				08A531501D3E629A00341E20 /* UIViewController.swift in Sources */,
 				08A5315A1D3E6FD900341E20 /* String.swift in Sources */,
 				08A5314E1D3E525800341E20 /* LeftMenuController.swift in Sources */,
