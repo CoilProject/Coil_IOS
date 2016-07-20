@@ -55,19 +55,52 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Main" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XN0-kC-rY9">
-                                <rect key="frame" x="186" y="298" width="37" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fUj-Ee-PAX">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eZa-jM-sjG">
+                                        <rect key="frame" x="7" y="168" width="400" height="400"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="300" id="2YX-xG-6Gp"/>
+                                            <constraint firstAttribute="width" constant="400" id="4hd-dL-wB1"/>
+                                            <constraint firstAttribute="width" constant="250" id="mlN-ne-Dow"/>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="4hd-dL-wB1"/>
+                                            </mask>
+                                        </variation>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="eZa-jM-sjG" firstAttribute="centerY" secondItem="fUj-Ee-PAX" secondAttribute="centerY" id="918-fn-2d9"/>
+                                    <constraint firstItem="eZa-jM-sjG" firstAttribute="width" secondItem="fUj-Ee-PAX" secondAttribute="width" id="GTK-qL-cWb"/>
+                                    <constraint firstItem="eZa-jM-sjG" firstAttribute="centerX" secondItem="fUj-Ee-PAX" secondAttribute="centerX" id="HcH-Fr-8zD"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="GTK-qL-cWb"/>
+                                    </mask>
+                                </variation>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fUj-Ee-PAX" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Do2-SN-oY1"/>
+                            <constraint firstItem="fUj-Ee-PAX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QxM-rg-127"/>
+                            <constraint firstItem="fUj-Ee-PAX" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="X8x-lL-igJ"/>
+                            <constraint firstItem="fUj-Ee-PAX" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="f8V-hw-zS2"/>
+                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="abataView" destination="eZa-jM-sjG" id="CLz-BE-vrj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="245" y="233"/>
         </scene>
         <!--Ranking View Controller-->
         <scene sceneID="pi6-LU-hJ6">

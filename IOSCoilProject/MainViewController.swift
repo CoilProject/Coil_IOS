@@ -10,9 +10,13 @@ import UIKit
 
 class MainViewController: UIViewController {
 
+    @IBOutlet weak var abataView: UIImageView!
+    
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         self.setNavigationBarItem()
+        
+        abataView.image = UIImage(named: "image_abata")!
     }
     
     override func viewDidLoad() {

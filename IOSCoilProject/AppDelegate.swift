@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let leftMenuController = storyBoard.instantiateViewControllerWithIdentifier("LeftMenuController") as! LeftMenuController
         
         let nav: UINavigationController = UINavigationController(rootViewController: mainViewController)
-        UINavigationBar.appearance().tintColor = UIColor(red: 1, green: 0, blue: 0, alpha: 0.5)
+        UINavigationBar.appearance().tintColor = UIColor(red: 0, green: 0, blue: 1, alpha: 0.5)
         leftMenuController.mainViewController = nav
         
         let slideMenuController = SlideMenuController(mainViewController:nav, leftMenuViewController: leftMenuController)
