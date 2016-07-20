@@ -38,6 +38,7 @@ class LeftMenuController : UIViewController, LeftMenuProtocol{
         let settingViewController = storyboard.instantiateViewControllerWithIdentifier("SettingViewController") as! SettingViewController
         self.settingViewController = UINavigationController(rootViewController: settingViewController)
         
+        // table view setting ..Left Side Menu
         tableview.registerClass(BaseTableViewCell.self, forCellReuseIdentifier: cellReuseIdentifier)
         tableview.dataSource = self
         tableview.delegate = self
@@ -47,6 +48,9 @@ class LeftMenuController : UIViewController, LeftMenuProtocol{
         super.viewDidAppear(animated)
     }
     
+    /*
+     * LeftMenuProtocol
+     */
     func changeViewController(menu: LeftMenu) {
         switch menu {
         case .Main:
@@ -59,6 +63,9 @@ class LeftMenuController : UIViewController, LeftMenuProtocol{
     }
 }
 
+/*
+ * for tableView ..Left Side Menu
+ */
 extension LeftMenuController : UITableViewDelegate{
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         if let menu = LeftMenu(rawValue: indexPath.item) {

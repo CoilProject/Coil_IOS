@@ -14,6 +14,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    /*
+     * create Left Side Menu
+     */
     private func createMenuView(){
         let storyBoard = UIStoryboard(name: "Main", bundle: nil)
         
