@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		085E7AEA1D40498A0009CF13 /* AwesomeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085E7AE91D40498A0009CF13 /* AwesomeTextField.swift */; };
+		085E7AEC1D40B3020009CF13 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085E7AEB1D40B3020009CF13 /* LoginViewController.swift */; };
 		08A531381D3E4C0E00341E20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A531371D3E4C0E00341E20 /* AppDelegate.swift */; };
 		08A5313A1D3E4C0E00341E20 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A531391D3E4C0E00341E20 /* MainViewController.swift */; };
 		08A5313D1D3E4C0E00341E20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08A5313B1D3E4C0E00341E20 /* Main.storyboard */; };
@@ -42,6 +44,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		085E7AE91D40498A0009CF13 /* AwesomeTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AwesomeTextField.swift; path = "../../../Downloads/AwesomeTextFieldSwift-master/AwesomeTextField/Classes/AwesomeTextField.swift"; sourceTree = "<group>"; };
+		085E7AEB1D40B3020009CF13 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		08A531341D3E4C0E00341E20 /* IOSCoilProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSCoilProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08A531371D3E4C0E00341E20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08A531391D3E4C0E00341E20 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -108,7 +112,9 @@
 				08A531591D3E6FD900341E20 /* String.swift */,
 				08A5315B1D3E6FF900341E20 /* BaseTableViewCell.swift */,
 				08F695201D3F648C00BADA56 /* MenutvCell.xib */,
+				085E7AE91D40498A0009CF13 /* AwesomeTextField.swift */,
 				08F695221D3F651900BADA56 /* CustomMenutvCell.swift */,
+				085E7AEB1D40B3020009CF13 /* LoginViewController.swift */,
 			);
 			path = IOSCoilProject;
 			sourceTree = "<group>";
@@ -191,10 +197,12 @@
 				08A5313A1D3E4C0E00341E20 /* MainViewController.swift in Sources */,
 				08A531381D3E4C0E00341E20 /* AppDelegate.swift in Sources */,
 				08F695231D3F651900BADA56 /* CustomMenutvCell.swift in Sources */,
+				085E7AEA1D40498A0009CF13 /* AwesomeTextField.swift in Sources */,
 				08A531501D3E629A00341E20 /* UIViewController.swift in Sources */,
 				08A5315A1D3E6FD900341E20 /* String.swift in Sources */,
 				08A5314E1D3E525800341E20 /* LeftMenuController.swift in Sources */,
 				08A531541D3E68BF00341E20 /* SettingViewController.swift in Sources */,
+				085E7AEC1D40B3020009CF13 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

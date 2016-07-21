@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     /*
      * create Left Side Menu
      */
-    private func createMenuView(){
+    public func createMenuView(){
         let storyBoard = UIStoryboard(name: "Main", bundle: nil)
         
         let mainViewController = storyBoard.instantiateViewControllerWithIdentifier("MainViewController") as! MainViewController
@@ -36,7 +36,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        createMenuView()
+        //createMenuView()
         
         return true
     }
