@@ -22,6 +22,14 @@
 		08A531541D3E68BF00341E20 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A531531D3E68BF00341E20 /* SettingViewController.swift */; };
 		08A5315A1D3E6FD900341E20 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A531591D3E6FD900341E20 /* String.swift */; };
 		08A5315C1D3E6FF900341E20 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A5315B1D3E6FF900341E20 /* BaseTableViewCell.swift */; };
+		08A937831D48A259006A6135 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 08A937821D48A259006A6135 /* GoogleService-Info.plist */; };
+		08A937891D48A2B2006A6135 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A937841D48A2B2006A6135 /* FirebaseAnalytics.framework */; };
+		08A9378A1D48A2B2006A6135 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A937851D48A2B2006A6135 /* FirebaseInstanceID.framework */; };
+		08A9378B1D48A2B2006A6135 /* GoogleInterchangeUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A937861D48A2B2006A6135 /* GoogleInterchangeUtilities.framework */; };
+		08A9378C1D48A2B2006A6135 /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A937871D48A2B2006A6135 /* GoogleSymbolUtilities.framework */; };
+		08A9378D1D48A2B2006A6135 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A937881D48A2B2006A6135 /* GoogleUtilities.framework */; };
+		08A937901D48A2B9006A6135 /* FirebaseMessaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A9378E1D48A2B9006A6135 /* FirebaseMessaging.framework */; };
+		08A937911D48A2B9006A6135 /* GoogleIPhoneUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A9378F1D48A2B9006A6135 /* GoogleIPhoneUtilities.framework */; };
 		08F6951E1D3F5EE200BADA56 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F6951D1D3F5EE200BADA56 /* Alamofire.framework */; };
 		08F6951F1D3F5EE200BADA56 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 08F6951D1D3F5EE200BADA56 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		08F695211D3F648C00BADA56 /* MenutvCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08F695201D3F648C00BADA56 /* MenutvCell.xib */; };
@@ -60,6 +68,16 @@
 		08A531531D3E68BF00341E20 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		08A531591D3E6FD900341E20 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		08A5315B1D3E6FF900341E20 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		08A937821D48A259006A6135 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		08A937841D48A2B2006A6135 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		08A937851D48A2B2006A6135 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		08A937861D48A2B2006A6135 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		08A937871D48A2B2006A6135 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		08A937881D48A2B2006A6135 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = "<group>"; };
+		08A9378E1D48A2B9006A6135 /* FirebaseMessaging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseMessaging.framework; sourceTree = "<group>"; };
+		08A9378F1D48A2B9006A6135 /* GoogleIPhoneUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleIPhoneUtilities.framework; sourceTree = "<group>"; };
+		08A937941D48A2F7006A6135 /* Firebase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
+		08A937951D48A2F7006A6135 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		08F6951D1D3F5EE200BADA56 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		08F695201D3F648C00BADA56 /* MenutvCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenutvCell.xib; sourceTree = "<group>"; };
 		08F695221D3F651900BADA56 /* CustomMenutvCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMenutvCell.swift; sourceTree = "<group>"; };
@@ -70,8 +88,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08A9378C1D48A2B2006A6135 /* GoogleSymbolUtilities.framework in Frameworks */,
 				08A5314A1D3E4CFF00341E20 /* SlideMenuControllerSwift.framework in Frameworks */,
 				08F6951E1D3F5EE200BADA56 /* Alamofire.framework in Frameworks */,
+				08A937891D48A2B2006A6135 /* FirebaseAnalytics.framework in Frameworks */,
+				08A9378A1D48A2B2006A6135 /* FirebaseInstanceID.framework in Frameworks */,
+				08A9378B1D48A2B2006A6135 /* GoogleInterchangeUtilities.framework in Frameworks */,
+				08A937901D48A2B9006A6135 /* FirebaseMessaging.framework in Frameworks */,
+				08A937911D48A2B9006A6135 /* GoogleIPhoneUtilities.framework in Frameworks */,
+				08A9378D1D48A2B2006A6135 /* GoogleUtilities.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +106,14 @@
 		08A5312B1D3E4C0E00341E20 = {
 			isa = PBXGroup;
 			children = (
+				08A937941D48A2F7006A6135 /* Firebase.h */,
+				08A937951D48A2F7006A6135 /* module.modulemap */,
 				08F6951D1D3F5EE200BADA56 /* Alamofire.framework */,
 				08A531491D3E4CFF00341E20 /* SlideMenuControllerSwift.framework */,
 				08A531361D3E4C0E00341E20 /* IOSCoilProject */,
 				08A531351D3E4C0E00341E20 /* Products */,
+				08A937921D48A2C5006A6135 /* FCMMessaging */,
+				08A937931D48A2D2006A6135 /* FCMAnalytics */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +128,7 @@
 		08A531361D3E4C0E00341E20 /* IOSCoilProject */ = {
 			isa = PBXGroup;
 			children = (
+				08A937821D48A259006A6135 /* GoogleService-Info.plist */,
 				08A531371D3E4C0E00341E20 /* AppDelegate.swift */,
 				08A531391D3E4C0E00341E20 /* MainViewController.swift */,
 				08A5313B1D3E4C0E00341E20 /* Main.storyboard */,
@@ -117,6 +147,27 @@
 				085E7AEB1D40B3020009CF13 /* LoginViewController.swift */,
 			);
 			path = IOSCoilProject;
+			sourceTree = "<group>";
+		};
+		08A937921D48A2C5006A6135 /* FCMMessaging */ = {
+			isa = PBXGroup;
+			children = (
+				08A9378E1D48A2B9006A6135 /* FirebaseMessaging.framework */,
+				08A937881D48A2B2006A6135 /* GoogleUtilities.framework */,
+			);
+			name = FCMMessaging;
+			sourceTree = "<group>";
+		};
+		08A937931D48A2D2006A6135 /* FCMAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				08A9378F1D48A2B9006A6135 /* GoogleIPhoneUtilities.framework */,
+				08A937841D48A2B2006A6135 /* FirebaseAnalytics.framework */,
+				08A937851D48A2B2006A6135 /* FirebaseInstanceID.framework */,
+				08A937861D48A2B2006A6135 /* GoogleInterchangeUtilities.framework */,
+				08A937871D48A2B2006A6135 /* GoogleSymbolUtilities.framework */,
+			);
+			name = FCMAnalytics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +237,7 @@
 			files = (
 				08A531421D3E4C0E00341E20 /* LaunchScreen.storyboard in Resources */,
 				08A5313F1D3E4C0E00341E20 /* Assets.xcassets in Resources */,
+				08A937831D48A259006A6135 /* GoogleService-Info.plist in Resources */,
 				08F695211D3F648C00BADA56 /* MenutvCell.xib in Resources */,
 				08A5313D1D3E4C0E00341E20 /* Main.storyboard in Resources */,
 			);
@@ -325,10 +377,13 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
 				);
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)";
 				INFOPLIST_FILE = IOSCoilProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yucaroll.ioscoil;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "a71998a6-cf25-4bc3-9701-d75ed03a9848";
@@ -343,10 +398,13 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
 				);
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)";
 				INFOPLIST_FILE = IOSCoilProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yucaroll.ioscoil;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "a71998a6-cf25-4bc3-9701-d75ed03a9848";
